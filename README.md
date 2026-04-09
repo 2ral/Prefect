@@ -111,3 +111,10 @@ Run the container with the following command:
 ```
 docker run --gpus all -it --ipc=host --ulimit memlock=-1 --ulimit stack=67108864 turalmammadov/prefect
 ```
+
+#### Replication of the results:
+To replicate the results from the paper, please download the datasets from the following link:
+[https://zenodo.org/records/19356516](https://zenodo.org/records/19356516)
+
+This dataset contains model checkpoints for both input to execution traces and execution traces to input prediction tasks across all subjects used in the paper.
+Additionally, it contains analysis results of the self-repair evaluation for all subjects.
